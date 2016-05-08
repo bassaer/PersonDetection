@@ -1,4 +1,4 @@
-Person detection program
+#Person detection program
 
 ##Code
 OpenCV + C++
