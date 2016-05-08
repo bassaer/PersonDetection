@@ -12,6 +12,7 @@
 		A73AB3931BE5E59D00E08E3B /* libopencv_core.2.4.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A73AB3921BE5E59D00E08E3B /* libopencv_core.2.4.12.dylib */; };
 		A73AB3951BE5E67000E08E3B /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A73AB3941BE5E67000E08E3B /* libopencv_imgproc.dylib */; };
 		A73AB3D41BE5E81B00E08E3B /* libopencv_objdetect.2.4.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A73AB3B81BE5E7A600E08E3B /* libopencv_objdetect.2.4.12.dylib */; };
+		A78989971CDEE5D300AE4909 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A78989961CDEE5D300AE4909 /* README.md */; };
 		A7BAF79B1BCF79F100B91B62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7BAF79A1BCF79F100B91B62 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		A73AB3CF1BE5E7A600E08E3B /* opencv.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = opencv.pc; sourceTree = "<group>"; };
 		A73AB3D21BE5E7A600E08E3B /* cv.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = cv.py; sourceTree = "<group>"; };
 		A73AB3D31BE5E7A600E08E3B /* cv2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = cv2.so; sourceTree = "<group>"; };
+		A78989961CDEE5D300AE4909 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7BAF7971BCF79F100B91B62 /* PersonDetection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PersonDetection; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BAF79A1BCF79F100B91B62 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = PersonDetection/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +205,7 @@
 		A7BAF78E1BCF79F100B91B62 = {
 			isa = PBXGroup;
 			children = (
+				A78989961CDEE5D300AE4909 /* README.md */,
 				A73AB3961BE5E7A600E08E3B /* lib */,
 				A73AB3941BE5E67000E08E3B /* libopencv_imgproc.dylib */,
 				A73AB3921BE5E59D00E08E3B /* libopencv_core.2.4.12.dylib */,
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78989971CDEE5D300AE4909 /* README.md in Sources */,
 				A7BAF79B1BCF79F100B91B62 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
